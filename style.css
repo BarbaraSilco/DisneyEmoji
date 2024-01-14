@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    padding: 0;
+    margin: 0;
+	background: linear-gradient(-45deg, #f26194, #a574b4, #3c9bb5, #10b361);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.wrapper{
+    width: 100%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left:50%;
+    top: 50%;
+    max-width: 35em;
+    position: absolute;
+    border-radius: 0.8em;
+    padding-bottom: 50px;
+
+
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.header {
+    display: flex;
+    align-items: center;   
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 1px 1px 5px rgb(125, 125, 125);
+  
+    }
+
+h1 {
+    text-align: center;
+    color:#3f403f;
+}
+
+.num-of-tries-left {
+    text-align: right;
+    margin-bottom: 2em;
+    padding: 10px;
+}
+
+.num-of-tries-left span{
+    font-weight: 600;
+}
+
+.container {
+    font-size: 1.87em;
+    display: flex;
+    justify-content: space-around;
+}
+
+#letter-container{
+
+    margin:  1.5em 0 3em 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.letters{
+
+    width: 2.5em;
+    height: 2.5em;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 17px;
+
+}
+
+#userInputSection{
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.controls-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(-45deg, #f26194, #a574b4, #3c9bb5, #10b361);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+
+}
+
+#start {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    font-size: 2em;
+    padding: 0.8em 2em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.1s;
+
+} 
+
+#start:active {
+    transform: translateY(7px);
+}
+
+.hide {
+    display: none;
+}
