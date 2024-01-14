@@ -11,7 +11,7 @@ const blObjects = {
     "🐘🎪": "Dumbo",
     "⛄👸🏼❄️": "Frozen",
     "👸🏾🐸": "A Princesa e o Sapo",
-    "🦁👑": "O Rei Leão",
+    "🦁👑": "O Rei Leao",
     "🧸🤠🤖🧑🏼‍🚀": "Toy Story",
     "👸🏼🧚🏼‍♀️🎃👠": "Cinderella",
     "🐒👳🏽‍♂️🪔": "Alladim",
@@ -21,6 +21,7 @@ const blObjects = {
     "👸🏻🌹👿": "A Bela e a Fera",
     "👱🏼‍♀️🐱🍄🎩🐇": "Alice no Pais das Maravilhas",
     "🌋🐔🌊🐚": "Moana",
+    "🏹🍃👩🏽🦝": "Pocahontas",
 
 
 
@@ -130,7 +131,7 @@ else {
                 setTimeout(() => {
                   result.innerHTML = "Parabéns!";
                 blocker();
-                }, 5000);
+                }, 3000);
               }
             }
           });
