@@ -149,3 +149,25 @@ h1 {
 .hide {
     display: none;
 }
+
+@media (max-width: 600px) {
+    .wrapper{
+        width: 80%;
+        max-width: 25em;}
+
+    .header h1 {
+        height: 80px;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 380px) {
+    .wrapper{
+        width: 80%;
+        max-width: 25em;}
+
+    .header h1 {
+        height: 110px;
+        font-size: 25px;
+    }
+}
