@@ -159,9 +159,20 @@ h1 {
         height: 80px;
         font-size: 25px;
     }
+
+    #letter-container {
+        padding: 10px;
+     }
+ 
+     #userInputSection {
+         padding-left: 50px;
+         padding-right: 50px;
+         gap: 0.05em;
+     }
+     
 }
 
-@media (max-width: 380px) {
+@media (max-width: 390px) {
     .wrapper{
         width: 80%;
         max-width: 25em;}
@@ -170,4 +181,15 @@ h1 {
         height: 110px;
         font-size: 25px;
     }
+
+    #letter-container {
+       padding: 10px;
+    }
+
+    #userInputSection {
+        padding-left: 50px;
+        padding-right: 50px;
+        gap: 0.05em;
+    }
+    
 }
